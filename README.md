@@ -1,7 +1,21 @@
-# Getting Started with Create React App
+<div align="center">
+      <h1> <img src="data:image/png;base64,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" width="80px"><br/>Money-Mo</h1>
+     </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description
+Money Mo is a small projet to store money entries and output
+
+![image](https://user-images.githubusercontent.com/51388356/149157945-1791f9f6-4a68-4af2-a6f6-9eea499471ad.png)
+![image](https://user-images.githubusercontent.com/51388356/149157981-47251bf8-172a-4359-a9f2-d6359e4d039a.png)
+
+
+# Features
+Built using ReactJs, Typescript, Styled-components and using ContextAPI 
+
+# Tech Used
+ ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+      
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,11 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
@@ -29,18 +38,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+    
